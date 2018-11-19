@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2017
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Eightifier - VST", "Eightifier_VST.vcxproj", "{817DA279-D79A-30B8-1B4E-B590108B1DC8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F0B5E3FD-FAF5-5325-DC22-7BB2C7BD4BBC} = {F0B5E3FD-FAF5-5325-DC22-7BB2C7BD4BBC}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Eightifier - Shared Code", "Eightifier_SharedCode.vcxproj", "{F0B5E3FD-FAF5-5325-DC22-7BB2C7BD4BBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{817DA279-D79A-30B8-1B4E-B590108B1DC8}.Debug|x64.ActiveCfg = Debug|x64
+		{817DA279-D79A-30B8-1B4E-B590108B1DC8}.Debug|x64.Build.0 = Debug|x64
+		{817DA279-D79A-30B8-1B4E-B590108B1DC8}.Release|x64.ActiveCfg = Release|x64
+		{817DA279-D79A-30B8-1B4E-B590108B1DC8}.Release|x64.Build.0 = Release|x64
+		{F0B5E3FD-FAF5-5325-DC22-7BB2C7BD4BBC}.Debug|x64.ActiveCfg = Debug|x64
+		{F0B5E3FD-FAF5-5325-DC22-7BB2C7BD4BBC}.Debug|x64.Build.0 = Debug|x64
+		{F0B5E3FD-FAF5-5325-DC22-7BB2C7BD4BBC}.Release|x64.ActiveCfg = Release|x64
+		{F0B5E3FD-FAF5-5325-DC22-7BB2C7BD4BBC}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

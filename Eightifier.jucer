@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="dsuZGj" name="Eightifier" displaySplashScreen="1" reportAppUsage="1"
+              splashScreenColour="Dark" projectType="audioplug" version="1.0.0"
+              bundleIdentifier="com.yourcompany.Eightifier" includeBinaryInAppConfig="1"
+              cppLanguageStandard="11" companyCopyright="" buildVST="1" buildVST3="0"
+              buildAU="0" buildAUv3="0" buildRTAS="0" buildAAX="0" buildStandalone="0"
+              enableIAA="0" pluginName="Eightifier" pluginDesc="Eightifier"
+              pluginManufacturer="yourcompany" pluginManufacturerCode="Manu"
+              pluginCode="Dsuz" pluginChannelConfigs="{1,1}, {2,2}" pluginIsSynth="0"
+              pluginWantsMidiIn="0" pluginProducesMidiOut="0" pluginIsMidiEffectPlugin="0"
+              pluginEditorRequiresKeys="0" pluginAUExportPrefix="EightifierAU"
+              pluginRTASCategory="" aaxIdentifier="com.yourcompany.Eightifier"
+              pluginAAXCategory="2" jucerVersion="5.3.2" pluginFormats="buildVST">
+  <MAINGROUP id="st3OqE" name="Eightifier">
+    <GROUP id="{D7512B02-A8F8-97E6-8F05-061FC2E3AD3C}" name="Source">
+      <FILE id="rpfY90" name="Delay.cpp" compile="1" resource="0" file="Source/Delay.cpp"/>
+      <FILE id="Aq561E" name="Delay.h" compile="0" resource="0" file="Source/Delay.h"/>
+      <FILE id="srQHII" name="Overdrive.cpp" compile="1" resource="0" file="Source/Overdrive.cpp"/>
+      <FILE id="Yhc7bj" name="Overdrive.h" compile="0" resource="0" file="Source/Overdrive.h"/>
+      <FILE id="gI3vRp" name="Chorus.cpp" compile="1" resource="0" file="Source/Chorus.cpp"/>
+      <FILE id="a1R0xJ" name="Chorus.h" compile="0" resource="0" file="Source/Chorus.h"/>
+      <FILE id="kpqTou" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="BxLYSU" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="MS3HR0" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="qnqs2U" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2017 targetFolder="Builds/VisualStudio2017">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       debugInformationFormat="ProgramDatabase" enablePluginBinaryCopyStep="0"
+                       linkTimeOptimisation="0" isDebug="1" optimisation="1" targetName="Eightifier"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       debugInformationFormat="ProgramDatabase" enablePluginBinaryCopyStep="0"
+                       linkTimeOptimisation="1" isDebug="0" optimisation="3" targetName="Eightifier"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../../../../../Program Files (x86)/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../../Program Files (x86)/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../../Program Files (x86)/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../../Program Files (x86)/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../../Program Files (x86)/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../../Program Files (x86)/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../../../../../Program Files (x86)/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../../../../../../Program Files (x86)/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../../../../../Program Files (x86)/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../../Program Files (x86)/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../../Program Files (x86)/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../../Program Files (x86)/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../../Program Files (x86)/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../../../../Program Files (x86)/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../../../Program Files (x86)/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2017>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_QUICKTIME="disabled"/>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
